@@ -1,0 +1,35 @@
+{
+  "name": "atoms-hello",
+  "sourceRoot": "libs/atoms/hello/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/atoms/hello/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "build": {
+      "executor": "@nrwl/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/atoms/hello",
+        "tsConfig": "libs/atoms/hello/tsconfig.lib.json",
+        "project": "libs/atoms/hello/package.json",
+        "entryFile": "libs/atoms/hello/src/index.ts",
+        "external": ["react/jsx-runtime"],
+        "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+        "compiler": "babel",
+        "assets": [
+          {
+            "glob": "libs/atoms/hello/README.md",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      }
+    }
+  }
+}
