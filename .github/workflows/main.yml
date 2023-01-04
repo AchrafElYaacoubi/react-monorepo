@@ -26,13 +26,14 @@ jobs:
         run: npx nx affected --base=last-release --target=version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Tag last-release
-        shell: bash
-        run: |
-          git tag -f last-release
-          git push origin last-release --force
       - name: npm publish
         shell: bash
         run: npx nx affected --base=last-release --target=publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Tag last-release
+        shell: bash
+        run: |
+          git tag -f last-release
+          git push origin last-release --force
+
