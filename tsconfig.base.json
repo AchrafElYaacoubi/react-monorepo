@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@edirect/atoms-hello": ["libs/atoms/hello/src/index.ts"]
+      "@hello234test/atoms-hello": ["libs/atoms/hello/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
