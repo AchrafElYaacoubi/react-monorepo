@@ -35,7 +35,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-        "postTargets": ["atoms-hello:npm", "atoms-hello:github"]
+        "postTargets": ["atoms-hello:publish", "atoms-hello:github"]
       }
     },
     "github": {
@@ -45,7 +45,7 @@
         "notes": "${notes}"
       }
     },
-    "npm": {
+    "publish": {
       "executor": "ngx-deploy-npm:deploy",
       "options": {
         "access": "public"
