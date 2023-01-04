@@ -36,6 +36,12 @@
       "options": {
         "preset": "conventional"
       }
+    },
+    "publish": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm publish --access public libs/atoms/hello/"
+      }
     }
   }
 }
