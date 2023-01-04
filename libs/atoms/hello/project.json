@@ -34,19 +34,17 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "conventional",
-        "postTargets": ["atoms-hello:publish", "atoms-hello:github"]
-      }
-    },
-    "github": {
-      "executor": "@jscutlery/semver:github",
-      "options": {
-        "tag": "${tag}",
-        "notes": "${notes}"
+        "preset": "conventional"
       }
     },
     "publish": {
       "executor": "ngx-deploy-npm:deploy",
+      "options": {
+        "access": "public"
+      }
+    },
+    "deploy": {
+      "executor": "npm:publish",
       "options": {
         "access": "public"
       }
