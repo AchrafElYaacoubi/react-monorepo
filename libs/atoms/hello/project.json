@@ -1,5 +1,5 @@
 {
-  "name": "atoms-hello",
+  "name": "atoms-hello-test",
   "sourceRoot": "libs/atoms/hello/src",
   "projectType": "library",
   "tags": [],
