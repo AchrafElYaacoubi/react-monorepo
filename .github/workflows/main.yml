@@ -23,7 +23,9 @@ jobs:
       - run: npm install --frozen-lockfile
       - name: Version
         shell: bash
-        run: npx nx affected --base=last-release --target=version
+        run: |
+          npx nx affected --base=last-release --target=version
+          git push --tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Configure npm
