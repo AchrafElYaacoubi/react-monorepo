@@ -37,16 +37,19 @@
         "preset": "conventional"
       }
     },
-    "publish": {
+    "deploy": {
       "executor": "ngx-deploy-npm:deploy",
       "options": {
         "access": "public"
       }
     },
-    "deploy": {
-      "executor": "npm:publish",
+    "publish": {
+      "executor": "nx:run-commands",
       "options": {
-        "access": "public"
+        "commands": [
+          "cd libs/atoms/hello/",
+          "npm publish --access public"
+        ]
       }
     }
   }
