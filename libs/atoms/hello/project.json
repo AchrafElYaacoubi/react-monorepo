@@ -46,10 +46,7 @@
     "publish": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": [
-          "cd libs/atoms/hello/",
-          "npm publish --access public"
-        ]
+        "command": "npm publish --access public libs/atoms/hello/"
       }
     }
   }
