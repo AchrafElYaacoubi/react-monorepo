@@ -25,7 +25,7 @@ jobs:
         shell: bash
         run: |
           npx nx affected --base=last-release --target=version
-          git push --tags
+          git push --follow-tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Configure npm
