@@ -1,7 +1,7 @@
-# atoms-hello-test
+# atoms-hello
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test atoms-hello-test` to execufdfgte test [Jest](https://jestjs.io).
+Run `nx test atoms-hello` to execufdfgte test [Jest](https://jestjs.io).

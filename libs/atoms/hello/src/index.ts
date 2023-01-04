@@ -1,1 +1,1 @@
-export * from './lib/atoms-hello-test';
+export * from './lib/atoms-hello';
