@@ -37,12 +37,6 @@
         "preset": "conventional"
       }
     },
-    "deploy": {
-      "executor": "ngx-deploy-npm:deploy",
-      "options": {
-        "access": "public"
-      }
-    },
     "publish": {
       "executor": "nx:run-commands",
       "options": {
