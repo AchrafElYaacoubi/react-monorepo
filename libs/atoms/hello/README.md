@@ -4,4 +4,4 @@ This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test atoms-hello` to execute the uni viaxx [Jest](https://jestjs.io).
+Run `nx test atoms-hello` to execute theviaxx [Jest](https://jestjs.io).
