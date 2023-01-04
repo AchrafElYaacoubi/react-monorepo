@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "atoms-hello": ["libs/atoms/hello/src/index.ts"]
+      "atoms-hello": ["libs/atoms/hello/src/index.ts"],
+      "atoms-world": ["libs/atoms/world/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
