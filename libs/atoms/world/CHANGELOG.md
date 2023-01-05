@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.1.3](https://github.com/AchrafElYaacoubi/react-monorepo/compare/atoms-world-0.1.2...atoms-world-0.1.3) (2023-01-05)
+
+
+### Bug Fixes
+
+* update text ([df3c3f5](https://github.com/AchrafElYaacoubi/react-monorepo/commit/df3c3f52c484624164abbed524b021dee0d06f17))
+
 ### [0.1.2](https://github.com/AchrafElYaacoubi/react-monorepo/compare/atoms-world-0.1.1...atoms-world-0.1.2) (2023-01-05)
 
 
