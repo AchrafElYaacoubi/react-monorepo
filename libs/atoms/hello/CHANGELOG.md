@@ -2,6 +2,16 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+### [0.2.5](https://github.com/AchrafElYaacoubi/react-monorepo/compare/atoms-hello-0.2.4...atoms-hello-0.2.5) (2023-01-06)
+
+
+### Bug Fixes
+
+* commit 1 ([833fff8](https://github.com/AchrafElYaacoubi/react-monorepo/commit/833fff8a97e8cf3a5b6929b034e55afa6024a8c1))
+* commit 2 ([6566d6c](https://github.com/AchrafElYaacoubi/react-monorepo/commit/6566d6c03928b0ed7a268c4845fada743c0774fc))
+* commit version ([0d92261](https://github.com/AchrafElYaacoubi/react-monorepo/commit/0d92261c1c3d0fb0b03f61129b827dccbc440ff8))
+* typo ([40eb411](https://github.com/AchrafElYaacoubi/react-monorepo/commit/40eb41179470ce6e9cf2ea1d4f24444083dfa458))
+
 ### [0.2.5](https://github.com/AchrafElYaacoubi/react-monorepo/compare/atoms-hello-0.2.4...atoms-hello-0.2.5) (2023-01-05)
 
 
